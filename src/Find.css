@@ -1,0 +1,149 @@
+.map-container{
+	transition: padding 100ms linear;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    z-index:1;
+}
+.loading{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index:10000;
+	background-color: white;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+
+.map-container .toggler{
+	width: 25px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 24px 0;
+    background-color:#444 ;
+    color: rgba(255,255,255,0.87);
+    line-height: 1.1em;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+    transition: left 100ms linear;
+    border: solid 1px #eee;
+    border-left-color: rgba(44,44,44,0.4);
+    z-index: 6;
+    cursor:pointer;
+}
+
+.map-container .toggler span{
+	display:block;
+}
+
+.map-container .sidebar .toggler{
+    left: 350px;
+}
+
+.map-container .sidebar .select-block {
+	width:350px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 100ms linear;
+    overflow: hidden;
+    z-index: 10;
+    border-right: 1px solid #eee;
+    display:block;
+}
+.map-container .noSidebar .select-block {
+    display:none;
+}
+
+.map-container .sidebar .select-directions-box{
+    width: 350px;
+    height: 30%;
+    background: #444 !important;
+    color: rgba(255,255,255,0.87);
+    border-radius: 0;
+}
+.map-container .sidebar .select-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+}
+
+.map-container .sidebar .select-directions-waypoints {
+    position: relative;
+    z-index: 1002;
+}
+
+.map-container .sidebar .select-directions-searchbox-container {
+    max-height: 70px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 60px;
+}
+
+.map-container .sidebar .marker{
+    background-repeat: no-repeat;
+    background-image: url("http://maps.google.com/mapfiles/ms/icons/red.png");
+    padding: 2px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px auto;
+    background-size: auto;
+}
+.map-container .sidebar .select-directions-searchbox-container .searchbox {
+    background-clip: padding-box;
+    width: auto;
+    border: none;
+    position: relative;
+    outline: none;
+    margin: 0 auto;
+    transition-property: none;
+    width:75%;
+    padding: 12px 0 0px 12px;
+    border-bottom: 1px solid #fff;
+}
+
+.info-block{
+    padding:10px;
+    height: 67%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.route-title{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    padding:10px 0;
+}
+
+.route-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.route-icon{
+    width:20%;
+	text-align: center;
+    text-transform: capitalize;
+    color:#0652f2;
+}
+
+.route-text{
+    width:80%;
+}
