@@ -1,4 +1,4 @@
-# Mad-Map
+# React-Map
 
 A React single page app with following functionalities
 
