@@ -10,7 +10,7 @@ A React single page app with following functionalities
 
 4) Route Information
 
-# Note : This  project doesn't has an active Google billing account and the API keys are not upgraded. Please generate and set a Google Maps key to access the APIs and to show map on your browser.
+### Note : This  project doesn't has an active Google billing account and the API keys are not upgraded. Please generate and set a Google Maps key to access the APIs and to show map on your browser.
 
 ## Getting Started
 ### Prerequisites
