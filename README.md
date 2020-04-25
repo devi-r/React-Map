@@ -10,7 +10,7 @@ A React single page app with following functionalities
 
 4) Route Information
 
-<img src = "https://user-images.githubusercontent.com/9350495/80283669-0bd9de00-8737-11ea-9996-dfb265f99e46.png" width = "200">
+<img src = "https://user-images.githubusercontent.com/9350495/80283669-0bd9de00-8737-11ea-9996-dfb265f99e46.png">
 
 ### Note : This  project doesn't has an active Google billing account and the API keys are not upgraded. Please generate and set a Google Maps key to access the APIs and to show map on your browser.
 
